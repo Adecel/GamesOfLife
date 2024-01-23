@@ -12,26 +12,20 @@
 
                 <li>
                     <a href="index.html" class="waves-effect">
-                        <i class="ri-dashboard-line"></i><span class="badge rounded-pill bg-success float-end">3</span>
-                        <span>Dashboard</span>
+{{--                        <i class="ri-dashboard-line"></i><span class="badge rounded-pill bg-success float-end">3</span>--}}
+                        <span>Tableau de bord</span>
                     </a>
                 </li>
 
-                <li>
-                    <a href="calendar.html" class=" waves-effect">
-                        <i class="ri-calendar-2-line"></i>
-                        <span>Calendar</span>
-                    </a>
-                </li>
+
 
                 <li>
                     <a href="javascript: void(0);" class="has-arrow waves-effect">
                         <i class="ri-mail-send-line"></i>
-                        <span>Email</span>
+                        <span>Configuration d'Accueil</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="email-inbox.html">Inbox</a></li>
-                        <li><a href="email-read.html">Read Email</a></li>
+                        <li><a href="{{ route('home.slide') }}">Page d'Accueil  </a></li>
                     </ul>
                 </li>
 
