@@ -32,12 +32,12 @@
                                 </div>
                                 <!-- end row -->
 
-                                <div class="row mb-3">
-                                    <label for="example-text-input" class="col-sm-2 col-form-label">URL de la vidéo</label>
-                                    <div class="col-sm-10">
-                                        <input name="video_url" class="form-control" type="text" value="{{ $homeslide->lien_video}}"  id="example-text-input">
-                                    </div>
-                                </div>
+{{--                                <div class="row mb-3">--}}
+{{--                                    <label for="example-text-input" class="col-sm-2 col-form-label">URL de la vidéo</label>--}}
+{{--                                    <div class="col-sm-10">--}}
+{{--                                        <input name="video_url" class="form-control" type="text" value="{{ $homeslide->lien_video}}"  id="example-text-input">--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
                                 <!-- end row -->
 
                                 <div class="row mb-3">
